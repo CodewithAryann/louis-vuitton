@@ -1,0 +1,50 @@
+:root{
+    --brown:rgb(116, 81, 45);
+    --black:black;
+    --white:white;
+    --cyan: cyan;
+    --sand-brown:#9f8453;
+    --salmon: salmon;
+    --white2:black;
+    --light-brown:rgb(175, 143, 111);
+    --white-brown:rgb(248, 244, 225);
+}
+body{
+    transition: background-color ease-out .5s;
+}
+*::selection{
+    background-color: var(--brown);
+}
+body[theme="black"]{
+    background-color: var(--black);
+}
+body[theme="black"] .section{
+   color: var(--white);
+}
+body[theme="cyan"]{
+    background-color: var(--cyan);
+}
+body[theme="salmon"]{
+    background-color: var(--salmon);
+}
+body[theme="white"]{
+    background-color: var(--white);
+}
+body[theme="brown"]{
+    background-color: var(--brown);
+}
+body[theme="white"] .section{
+    background-color: var(--black);
+ }
+body[theme="sand-brown"]{
+    background-color: var(--sand-brown);
+}
+body[theme="light-brown"]{
+    background-color: var(--light-brown);
+}
+body[them="white-brown"]{
+    background-color: var(--white-brown);
+}
+.vidodiv{
+    clip-path: circle(var(--clip) at 50% 50%);
+}
