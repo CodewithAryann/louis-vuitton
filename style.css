@@ -13,7 +13,7 @@ body{
     transition: background-color ease-out .5s;
 }
 *::selection{
-    background-color: var(--brown);
+    background-color: var(--sand-brown);
 }
 body[theme="black"]{
     background-color: var(--black);
